@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+<TableRow>
+            <ImageView
+                android:id="@+id/aa"
+                android:layout_width="wrap_content"
+                android:layout_height="350dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:layout_weight="1"
+                android:src="@drawable/aa"
+                />
+</TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="ИНСТАГРАМИЗАЦИЯ, ЮТУБИЗАЦИЯ И ТИКТОКИЗАЦИЯ МАССОВОЙ КОММУНИКАЦИИ"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="15sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="\n Платформы прочно захватили роль посредника во всех видах коммуникации — людей с людьми, покупателей с брендами, политиков с электоратом, медиа с аудиторией, учителей с учениками. Открыл онлайн-магазин с товарами для молодежи? Запускаешь свой TikTok. Обновилось расписание в школе? Выкладываешь его в Instagram. Нужно раскрутить губернатора? Заводишь ему блог на YouTube. Три самые быстрорастущие площадки 2019 года стали основой и универсальным ответом на любую потребность в современных коммуникациях. Этот тренд продолжится и в 2020 году.
+⠀
+\n \n  На каждой платформе коммуникация имеет свою специфику: автору нужно максимально адаптироваться к местным требованиям, чтобы выжить и собрать аудиторию. И кажется, что платформы во многом облегчают задачу производителям контента: бери шаблон, пили формат. Но отдачу это дает ровно до того момента, пока потребление контента происходит непосредственно на платформе, не уводит юзера по ссылке из уютненькой экосистемы.
+⠀
+\n \n А правила игры все время меняются. В Instagram то покажут лайки, то скроют. В YouTube то поощряют короткие видео, то пессимизируют в выдаче за них. Facebook вообще весь превратился в одно большое A / B / C-тестирование.
+⠀
+\n \n В итоге договор «аудитория в обмен на контент» перестает работать — аудитории с платформы, ее внимания и денег уже не хватает для оплаты производства контента авторами. Требуется пересмотр договора. Попытки это сделать мы увидим в 2020 году. Но теперь благополучие и будущее платформ зависит не только от авторов. В дело вмешивается политика.
+"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/tvlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                             android:layout_centerHorizontal="true"
+                android:clickable="true"
+                android:onClick="blogView"
+                android:textColor="#0000FF"
+                android:textSize="15sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@jrnlstrus \n\n"
+                />
+        </TableRow>
+</TableLayout>
+</ScrollView>

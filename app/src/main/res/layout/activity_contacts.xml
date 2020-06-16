@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacts">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+        <TableRow>
+            <TextView
+            android:id="@+id/tvinsta"
+                android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+                android:text="Подписаться:"/>
+            <TextView
+                android:id="@+id/tvcall"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Позвонить:"/>
+        </TableRow>
+    <TableRow>
+    <ImageButton
+        android:id="@+id/insta"
+        android:layout_width="50dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:layout_weight="1"
+        android:src="@drawable/insta"
+        android:background="@null"
+        />
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="50dp"
+            android:layout_height="170dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:src="@drawable/call"
+            android:background="@null"
+            />
+    </TableRow>
+
+    </TableLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
